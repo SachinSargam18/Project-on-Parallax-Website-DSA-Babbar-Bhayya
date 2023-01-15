@@ -1,0 +1,55 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 18px;
+    font-family: "Lato",sans-serif;
+    line-height: 25px;
+    color: #666;
+}
+.pimg1{
+    background-image: url(https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?cs=srgb&dl=pexels-bich-tran-669996.jpg&fm=jpg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-picture-image_1250295.jpg);
+    min-height: 90%;
+}
+.pimg3{
+    background-image: url(https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    min-height: 90%;
+}
+.pimg4{
+    background-image: url(https://images.pexels.com/photos/245032/pexels-photo-245032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    min-height: 90%;
+}
+.pimg1,.pimg2,.pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textBg{
+    background: rgb(36, 36, 36);
+    color: white;
+    padding: 20px;
+
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-dark{
+    background-color: rgb(48, 47, 47);
+    color: #ddd;
+}
